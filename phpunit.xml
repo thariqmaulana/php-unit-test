@@ -1,0 +1,7 @@
+<phpunit colors="true" stopOnError="true" verbose="true">
+  <testsuites>
+    <testsuite name="belajar">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

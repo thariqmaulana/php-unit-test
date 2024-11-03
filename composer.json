@@ -1,0 +1,26 @@
+{
+    "name": "thariq/php-unit-test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Thariq\\Test\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thariq\\Test\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "thariq maulana",
+            "email": "thariqmaulana01@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    }
+}
